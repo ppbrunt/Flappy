@@ -29,6 +29,9 @@ class GameViewController: UIViewController {
             skView.presentScene(scene)
         }
     }
+    @IBAction func replayGame() {
+         viewDidLoad()
+    }
 
     override func shouldAutorotate() -> Bool {
         return true
